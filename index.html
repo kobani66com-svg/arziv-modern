@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARZIV MODERN | تصميم وتنفيذ الأثاث والديكور</title>
+<meta name="description" content="ARZIV MODERN — تصميم وتنفيذ المطابخ، غرف النوم، Dressing Rooms، أثاث MDF والديكورات الداخلية حسب الطلب.">
+<style>
+:root{--bg:#f7f5f0;--dark:#171717;--muted:#777;--line:#dedbd4;--accent:#8b7655;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,"Noto Sans Arabic",sans-serif;background:var(--bg);color:var(--dark);line-height:1.7}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(247,245,240,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:23px;font-weight:800;letter-spacing:2px}
+.logo span{display:block;font-size:10px;letter-spacing:4px;color:var(--accent);font-weight:500}
+nav{display:flex;gap:25px;font-size:14px}
+.menu{display:none;font-size:25px}
+.hero{min-height:680px;display:grid;place-items:center;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:
+linear-gradient(120deg,rgba(20,20,20,.72),rgba(20,20,20,.18)),
+radial-gradient(circle at 75% 35%,#c7b79a 0 8%,transparent 9%),
+linear-gradient(135deg,#333,#b9b0a1 55%,#272727)}
+.hero-content{position:relative;color:#fff;max-width:720px;text-align:right;margin-right:auto;margin-left:0;padding:80px 0}
+.kicker{color:#d8c7a9;letter-spacing:3px;font-size:13px;margin-bottom:12px}
+h1{font-size:clamp(42px,7vw,78px);line-height:1.05;margin-bottom:22px}
+.hero p{font-size:19px;color:#eee;max-width:600px;margin-bottom:30px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:13px 25px;border:1px solid #fff;border-radius:3px;font-weight:700}
+.btn.primary{background:#fff;color:#171717;border-color:#fff}
+.btn.gold{background:var(--accent);border-color:var(--accent);color:#fff}
+section{padding:90px 0}
+.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:35px}
+.eyebrow{font-size:12px;color:var(--accent);letter-spacing:3px;font-weight:700}
+h2{font-size:38px;line-height:1.2;margin-top:7px}
+.section-head p{max-width:480px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid var(--line);padding:28px;min-height:190px}
+.num{font-size:12px;color:var(--accent);letter-spacing:2px}
+.card h3{font-size:22px;margin:25px 0 8px}
+.card p{color:var(--muted);font-size:14px}
+.about{background:#1d1d1d;color:#fff}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.about p{color:#c8c8c8;margin-top:18px}
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tile{min-height:150px;padding:24px;background:linear-gradient(135deg,#6f675c,#262626);display:flex;align-items:end;font-weight:700}
+.tile:nth-child(2){background:linear-gradient(135deg,#c9c0b1,#665f55)}
+.tile:nth-child(3){background:linear-gradient(135deg,#3e3e3e,#9b8d78)}
+.tile:nth-child(4){background:linear-gradient(135deg,#b0a38f,#383838)}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.photo{aspect-ratio:1/1;background:linear-gradient(145deg,#ddd6ca,#817667);display:flex;align-items:end;padding:18px;color:#fff;font-weight:700}
+.photo:nth-child(2){background:linear-gradient(145deg,#bcb4a8,#393939)}
+.photo:nth-child(3){background:linear-gradient(145deg,#494949,#c4b69f)}
+.photo:nth-child(4){background:linear-gradient(145deg,#d0c6b7,#66584a)}
+.contact{background:#e9e5dc}
+.contact-box{display:flex;justify-content:space-between;align-items:center;gap:30px;background:#fff;padding:45px;border:1px solid var(--line)}
+.phone{font-size:30px;font-weight:800;direction:ltr}
+footer{padding:30px 0;background:#171717;color:#aaa;font-size:13px}
+footer .container{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:760px){
+ nav{display:none}.menu{display:block}.hero{min-height:620px}.hero-content{padding:50px 0}
+ .cards,.about-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}
+ .section-head{display:block}.section-head p{margin-top:15px}.contact-box{display:block}.phone{font-size:23px;margin:18px 0}
+ footer .container{display:block}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#">ARZIV MODERN<span>INTERIOR & FURNITURE</span></a>
+    <nav>
+      <a href="#services">الخدمات</a>
+      <a href="#about">من نحن</a>
+      <a href="#works">أعمالنا</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+    <div class="menu">☰</div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-content">
+    <div class="kicker">ARZIV MODERN</div>
+    <h1>نصنع المساحة<br>التي تناسبك.</h1>
+    <p>تصميم وتنفيذ الأثاث والديكور الداخلي حسب الطلب — بأسلوب عصري، تفاصيل دقيقة، وحلول عملية للمنازل والمشاريع التجارية.</p>
+    <div class="btns">
+      <a class="btn gold" href="https://wa.me/9647502062455?text=مرحباً%20ARZIV%20MODERN،%20أريد%20الاستفسار%20عن%20خدماتكم">تواصل عبر واتساب</a>
+      <a class="btn" href="#works">شاهد أعمالنا</a>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">OUR SERVICES</div><h2>خدماتنا</h2></div>
+      <p>حلول متكاملة من التصميم إلى التنفيذ، مع إمكانية تنفيذ القطع والمشاريع حسب القياسات والاحتياج.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="num">01</div><h3>MDF & Furniture</h3><p>أثاث وديكورات MDF مصممة حسب المساحة والستايل المطلوب.</p></div>
+      <div class="card"><div class="num">02</div><h3>Dressing Rooms</h3><p>غرف ملابس ودريسنج روم بتقسيمات عملية، إضاءة وتفاصيل عصرية.</p></div>
+      <div class="card"><div class="num">03</div><h3>Kitchens</h3><p>مطابخ حسب الطلب مع استغلال دقيق للمساحة والتخزين.</p></div>
+      <div class="card"><div class="num">04</div><h3>Bedrooms</h3><p>غرف نوم، خلفيات أسرّة، خزائن وقطع متناسقة ضمن تصميم واحد.</p></div>
+      <div class="card"><div class="num">05</div><h3>Commercial Counters</h3><p>كاونترات وبوفيهات للمحلات والمكاتب والمشاريع التجارية.</p></div>
+      <div class="card"><div class="num">06</div><h3>Wall Decoration</h3><p>ديكورات جدران وتفاصيل داخلية تعطي المكان هوية واضحة.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container about-grid">
+    <div>
+      <div class="eyebrow">ABOUT ARZIV</div>
+      <h2>تصميم هادئ.<br>تنفيذ دقيق.</h2>
+      <p>ARZIV MODERN متخصص في تصميم وتنفيذ الأثاث والديكور الداخلي للمنازل والمساحات التجارية. نركز على الخطوط العصرية، جودة التفاصيل، واستغلال المساحة بطريقة عملية.</p>
+      <div class="btns" style="margin-top:25px"><a class="btn gold" href="tel:+9647502062455">اتصل الآن</a></div>
+    </div>
+    <div class="feature">
+      <div class="tile">تصميم حسب الطلب</div><div class="tile">تفاصيل عصرية</div>
+      <div class="tile">استغلال المساحات</div><div class="tile">تنفيذ متكامل</div>
+    </div>
+  </div>
+</section>
+
+<section id="works">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">SELECTED WORKS</div><h2>نماذج من أعمالنا</h2></div>
+      <p>هذه أماكن مخصصة لصور مشاريعك. يمكن استبدالها بصور الكتالوج وأعمال ARZIV MODERN الحقيقية.</p>
+    </div>
+    <div class="gallery">
+      <div class="photo">غرفة ملابس</div><div class="photo">غرفة نوم</div>
+      <div class="photo">مطبخ</div><div class="photo">كونتر تجاري</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="contact-box">
+      <div><div class="eyebrow">LET'S WORK TOGETHER</div><h2>لديك مشروع؟</h2><p style="color:#777;margin-top:8px">أرسل لنا القياسات أو الصور وسنتواصل معك لمناقشة التفاصيل.</p></div>
+      <div>
+        <div class="phone">0750 206 2455</div>
+        <a class="btn gold" style="display:inline-block" href="https://wa.me/9647502062455?text=مرحباً%20ARZIV%20MODERN،%20أريد%20طلب%20تصميم">ابدأ عبر واتساب</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container"><div>© 2026 ARZIV MODERN</div><div>Interior • Furniture • MDF</div></div>
+</footer>
+</body>
+</html>
